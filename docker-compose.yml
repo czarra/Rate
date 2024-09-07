@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  php:
+    container_name: php8_rate
+    build:
+      context: .
+    ports:
+      - '9003:9000'
+    volumes:
+      - .:/var/www/symfony_rate
