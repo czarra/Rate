@@ -7,6 +7,7 @@
 ## steps
 ### to set up in env.local
 * EXCHANGE_API_KEY=""
+### .env
 * copy env.dist to .env
 
 ### run command:
