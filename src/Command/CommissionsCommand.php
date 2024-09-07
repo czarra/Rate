@@ -13,7 +13,6 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Command\LockableTrait;
 
-// the name of the command is what users type after "php bin/console"
 #[AsCommand(name: 'app:commission')]
 class CommissionsCommand extends Command
 {
